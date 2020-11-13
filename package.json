@@ -1,0 +1,23 @@
+{
+  "name": "simple_express_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Makoto Yano",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node dist/server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
